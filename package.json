@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "firebase": "^7.14.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
+    "vuelidate": "^0.7.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
@@ -32,7 +35,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": ["error", { "args": "none" }]
+    }
   },
   "browserslist": [
     "> 1%",
